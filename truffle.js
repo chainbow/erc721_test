@@ -22,7 +22,7 @@ module.exports = {
         return new PrivateKeyProvider(privateKey, "https://ropsten.infura.io/");
       },
       network_id: 3,
-      gas: 2000000
+      gas: 5000000
     }
   }
 };

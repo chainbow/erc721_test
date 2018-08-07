@@ -1,5 +1,5 @@
-var CKT = artifacts.require("./CKT.sol");
+var Ckt = artifacts.require("./Ckt.sol");
 
 module.exports = function (deployer) {
-  deployer.deploy(CKT);
+  deployer.deploy(Ckt);
 };
