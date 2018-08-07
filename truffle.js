@@ -12,18 +12,14 @@
  *   },
  */
 
-var HDWalletProvider = require("truffle-hdwallet-provider");
-var mnemonic = ''; // TODO
-var accessToken = '';
+var PrivateKeyProvider = require("truffle-privatekey-provider");
+var privateKey = "";
 
 module.exports = {
   networks: {
     ropsten: {
       provider: function () {
-        return new HDWalletProvider(
-          mnemonic,
-          "https://ropsten.infura.io/" + accessToken
-        );
+        return new PrivateKeyProvider(privateKey, "https://ropsten.infura.io/");
       },
       network_id: 3,
       gas: 2000000
