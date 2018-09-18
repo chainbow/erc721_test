@@ -1,0 +1,26 @@
+{
+  "name": "erc721_test",
+  "version": "1.0.0",
+  "description": "``` npm install -D truffle npm install -D zeppelin-solidity npm install -D truffle-privatekey-provider ```",
+  "main": "truffle-config.js",
+  "dependencies": {},
+  "devDependencies": {
+    "truffle": "^4.1.14",
+    "truffle-privatekey-provider": "^0.1.0",
+    "zeppelin-solidity": "^1.12.0"
+  },
+  "scripts": {
+    "migrate-ropsten": "./node_modules/.bin/truffle migrate --network ropsten",
+    "test": "./node_modules/.bin/truffle test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chainbow/erc721_test.git"
+  },
+  "author": "chainbow.io",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chainbow/erc721_test/issues"
+  },
+  "homepage": "https://github.com/chainbow/erc721_test#readme"
+}
